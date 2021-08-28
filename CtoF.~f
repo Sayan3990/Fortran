@@ -4,6 +4,6 @@
             PRINT *, 'Enter temperature in Celsius'
             READ (*,*) C
             F=C*1.8+32
-            PRINT *, C, "'C = ", F,"'F"
+            PRINT *, C, '°C ≈ ', F, ' °F'
             PAUSE
       end program
